@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.send("Backend Running");
 });
 
-app.get("/products", async (req, res) => {
+app.get("/apps/epay/products", async (req, res) => {
 
   try {
 
